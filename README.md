@@ -18,3 +18,9 @@ pytest --alluredir=report/
 
 #### Generate Allure report
 allure serve report/
+
+### View Allure report
+
+1. Unzip allure-results.zip
+2. Open a terminal in the unzipped folder
+3. Run --> allure serve allure-results

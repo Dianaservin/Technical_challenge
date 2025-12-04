@@ -12,6 +12,8 @@ def new_chrome_window():
     service = Service(ChromeDriverManager().install())
 
     driver = webdriver.Chrome(service=service, options=options)
+
+
     return driver
 
 
